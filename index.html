@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Pathways Legacy ID Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="/icon-image.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Firebase App (the core Firebase SDK) -->
+
+</head>
+<body>
+    <div class="container">
+        <h1>Python Pathways Legacy ID Generator</h1>
+        <input type="text" id="staffName" placeholder="Enter Staff Name">
+        <input type="text" id="position" placeholder="Enter Position">
+        <input type="date" id="dateOfJoining" placeholder="Date of Joining">
+        <button onclick="generateLegacyID()">Generate and Download Certificate</button>
+        <div id="output">
+            <p id="legacyID"></p>
+        </div>
+    </div>
+<!-- Firebase App (v8) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<!-- Firebase Firestore (v8) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
